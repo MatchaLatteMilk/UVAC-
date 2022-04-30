@@ -1,10 +1,9 @@
 #include <iostream>
 #include <ctime>
+#include <math.h>
 using namespace std;
 
 int main(){
-	for(int i=0;i<3;i+=3){
-		cout << i;
-	}
+	cout << (int)pow(95,12);
 	return 0;
 }
